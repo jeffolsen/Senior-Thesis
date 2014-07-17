@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Art Project</title>
+
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-css-transform.js"></script>
+		<script type="text/javascript" src="js/jquery-animate-css-rotate-scale.js"></script>
+		<script type="text/javascript" src="js/handlebars.js"></script>
+		<script type="text/javascript" src="js/howler.min.js"></script>
+		<script type="text/javascript" src="js/howler.js"></script>
+		<script type="text/javascript" src="js/database.js"></script>
+		<script type="text/javascript" src="js/actors.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<script id="tile-template" type="text/x-handlebars-template">
+			<div id="{{id}}" class="{{z}} {{y}} {x}} {{type}}" style="position: absolute; width: {{tilesize}}; height: {{tilesize}}; left: {{left}}; top: {{top}}; z-index: {{zindex}}; background-image: url({{graphic}});"></div>
+		</script>
+
+		<script id="dark-template" type="text/x-handlebars-template">
+			<div id="{{id}}" class="3z {{y}} {x}} dark" style="position: absolute; width: {{tilesize}}; height: {{tilesize}}; left: {{left}}; top: {{top}}; z-index: {{zindex}}; background-color: black; opacity: {{opacity}};"></div>
+		</script>
+
+	</head>
+	<body style="background-color: black;">
+		<div id="world" style="position: absolute; top: 60px; left: 30px;"></div>
+	</body>
+</html>
