@@ -1,0 +1,30 @@
+{
+  "name": "Senior-Thesis",
+  "version": "0.0.0",
+  "description": "Senior-Thesis =============",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffolsen/Senior-Thesis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffolsen/Senior-Thesis/issues"
+  },
+  "homepage": "https://github.com/jeffolsen/Senior-Thesis",
+  "dependencies": {
+    "gulp": "^3.8.6",
+    "gulp-sass": "^0.7.2",
+    "wiredep": "^1.8.2"
+  },
+  "devDependencies": {
+    "connect": "^2.14.4",
+    "connect-livereload": "^0.4.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-debug": "^0.3.0"
+  }
+}

@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e03f657-e058-4355-81a6-d4f4cc4e78ed" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Senior-Thesis.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Senior_Thesis_node_modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/handlebars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/howler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/howler.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-1.10.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-animate-css-rotate-scale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-css-transform.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/app/styles/style.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Blue.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Blue.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Brick.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Brick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-BrickTop.png" afterPath="$PROJECT_DIR$/app/img/Sprite-BrickTop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-BrickTopLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-BrickTopLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-BrickTopRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-BrickTopRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Brown.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Brown.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CandleCave.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CandleCave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CastleDown.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CastleDown.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CastleDownLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CastleDownLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CastleDownRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CastleDownRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CastleLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CastleLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CastleRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CastleRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CastleTop.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CastleTop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CastleTopLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CastleTopLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CastleTopRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CastleTopRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CeilingMushroomCave.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CeilingMushroomCave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Cliff.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Cliff.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CliffLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CliffLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-CliffRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-CliffRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-ColdCave.png" afterPath="$PROJECT_DIR$/app/img/Sprite-ColdCave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-DarkGray.png" afterPath="$PROJECT_DIR$/app/img/Sprite-DarkGray.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Dirt.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Dirt.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-DirtBottom.png" afterPath="$PROJECT_DIR$/app/img/Sprite-DirtBottom.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-DirtBottomLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-DirtBottomLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-DirtBottomRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-DirtBottomRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-DirtTop.png" afterPath="$PROJECT_DIR$/app/img/Sprite-DirtTop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-DirtTopLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-DirtTopLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-DirtTopRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-DirtTopRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Fly.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Fly.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Foliage.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Foliage.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-FoliageBottom.png" afterPath="$PROJECT_DIR$/app/img/Sprite-FoliageBottom.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-FoliageBottomLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-FoliageBottomLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-FoliageBottomRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-FoliageBottomRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-FoliageTop.png" afterPath="$PROJECT_DIR$/app/img/Sprite-FoliageTop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-FoliageTopLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-FoliageTopLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-FoliageTopRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-FoliageTopRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Grass.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Grass.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-GrassCave.png" afterPath="$PROJECT_DIR$/app/img/Sprite-GrassCave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-GrassLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-GrassLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-GrassRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-GrassRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Gray.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Gray.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Green.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Green.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-HotCave.png" afterPath="$PROJECT_DIR$/app/img/Sprite-HotCave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-IceTop.png" afterPath="$PROJECT_DIR$/app/img/Sprite-IceTop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Lava.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Lava.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Leaf.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Leaf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-LeafBottom.png" afterPath="$PROJECT_DIR$/app/img/Sprite-LeafBottom.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-LeafBottomLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-LeafBottomLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-LeafBottomRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-LeafBottomRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-LightGreen.png" afterPath="$PROJECT_DIR$/app/img/Sprite-LightGreen.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-MushroomCave.png" afterPath="$PROJECT_DIR$/app/img/Sprite-MushroomCave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-PillarLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-PillarLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-PillarRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-PillarRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Red.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Red.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Sky.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Sky.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SkyBlue.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SkyBlue.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Snail.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Snail.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Snow.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Snow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowBottom.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowBottom.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowBottomLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowBottomLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowBottomRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowBottomRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowCliff.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowCliff.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowCliffLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowCliffLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowCliffRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowCliffRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowMan.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowMan.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowMiddle.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowMiddle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowTopLeft.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowTopLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-SnowTopRight.png" afterPath="$PROJECT_DIR$/app/img/Sprite-SnowTopRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Spider.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Spider.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-Water.png" afterPath="$PROJECT_DIR$/app/img/Sprite-Water.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-WaterFall.png" afterPath="$PROJECT_DIR$/app/img/Sprite-WaterFall.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-WaterSurface.png" afterPath="$PROJECT_DIR$/app/img/Sprite-WaterSurface.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Sprite-White.png" afterPath="$PROJECT_DIR$/app/img/Sprite-White.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Thumbs.db" afterPath="$PROJECT_DIR$/app/img/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/actors.js" afterPath="$PROJECT_DIR$/app/js/actors.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/database.js" afterPath="$PROJECT_DIR$/app/js/database.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/app/js/main.js" />
+    </list>
+    <ignored path="Senior-Thesis.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Senior-Thesis" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.43474647">
+      <split-first>
+        <leaf>
+          <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.8887484" vertical-offset="133" max-vertical-offset="968">
+                  <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dist/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".bowerrc" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.bowerrc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-1.4193548" vertical-offset="0" max-vertical-offset="198">
+                  <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/styles/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="396">
+                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="616">
+                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gulpfile.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gulpfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.7774968" vertical-offset="925" max-vertical-offset="1716">
+                  <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/actors.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/node_modules/gulp/bin/gulp.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/styles/style.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Senior-Thesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Senior-Thesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Senior-Thesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Senior-Thesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Senior-Thesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Senior-Thesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Senior-Thesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="split &#9;ACTION&#9;ChangeSplitOrientation&#10;keym&#9;null&#9;null&#10;font size&#9;ACTION&#9;EditorIncreaseFontSize&#10;theme&#9;null&#9;null&#10;font &#9;ACTION&#9;EditorIncreaseFontSize&#10;format&#9;ACTION&#9;ReformatCode&#10;font si&#9;ACTION&#9;EditorIncreaseFontSize" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="true" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.gulpfile.js">
+    <configuration default="false" name="gulpfile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="gulpfile.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.gulpfile.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.gulpfile.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e03f657-e058-4355-81a6-d4f4cc4e78ed" name="Default" comment="" />
+      <created>1405800449349</created>
+      <updated>1405800449349</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21754807" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15221988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20014094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="342">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="306">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49691993" vertical-offset="0" max-vertical-offset="616">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp/lib/taskTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp/bin/gulp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4576">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/connect/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2772">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/connect/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08413002" vertical-offset="0" max-vertical-offset="523">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44885176" vertical-offset="291" max-vertical-offset="770">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="616">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="396">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4193548" vertical-offset="0" max-vertical-offset="198">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7774968" vertical-offset="925" max-vertical-offset="1716">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8887484" vertical-offset="133" max-vertical-offset="968">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

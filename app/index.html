@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Art Project</title>
+        <!-- bower:js -->
+        <!-- endbower -->
+	</head>
+	<body>
+    <script id="tile-template" type="text/x-handlebars-template">
+        <div id="{{id}}" class="{{z}} {{y}} {x}} {{type}}"
+             style="position: absolute; width: {{tilesize}}; height: {{tilesize}}; left: {{left}}; top: {{top}}; z-index: {{zindex}}; background-image: url({{graphic}});"></div>
+    </script>
+
+    <script id="dark-template" type="text/x-handlebars-template">
+        <div id="{{id}}" class="3z {{y}} {x}} dark"
+             style="position: absolute; width: {{tilesize}}; height: {{tilesize}}; left: {{left}}; top: {{top}}; z-index: {{zindex}}; background-color: black; opacity: {{opacity}};"></div>
+    </script>
+		<div id="world" style="position: absolute; top: 60px; left: 30px;"></div>
+        <script type="text/javascript" src="js/database.js"></script>
+        <script type="text/javascript" src="js/actors.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

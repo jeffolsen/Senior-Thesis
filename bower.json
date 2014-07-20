@@ -1,0 +1,22 @@
+{
+  "name": "Senior-Thesis",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jeffolsen/Senior-Thesis",
+  "authors": [
+    "david viramontes <dviramontes@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "~1.3.0",
+    "jquery": "~2.1.1",
+    "jquery-animate-css-rotate-scale": "https://github.com/zachstronaut/jquery-animate-css-rotate-scale.git#~0.9.3",
+    "jquery-css-transform": "https://github.com/zachstronaut/jquery-css-transform.git"
+  }
+}

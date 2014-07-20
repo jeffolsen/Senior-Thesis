@@ -1,5 +1,12 @@
+$color1 : #ccc;
+$black : #fff;
+
 .cell {
 	position:absolute !important;
 	height:20px !important;
 	width:20px !important;
+}
+
+.body{
+  background: $black;
 }
